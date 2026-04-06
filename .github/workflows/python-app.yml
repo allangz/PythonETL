@@ -1,4 +1,4 @@
-name: Python application
+name: Python ETL Example
 
 on:
   push:
@@ -25,4 +25,4 @@ jobs:
       - name: Install the project
         run: uv sync --group tests
       - name: Run tests
-        run: uv run pytest
+        run: uv run pytest -v
