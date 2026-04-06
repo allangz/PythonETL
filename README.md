@@ -9,7 +9,7 @@ apply business logic, and store results in an SQLite database.
 - `main.py`: The entry point and core logic of the ETL pipeline.
 - `config.py`: Configuration file for business rules, database names, and logging.
 - `test_main.py`: Unit tests for the transformation logic.
-- `data/`: Directory for input CSV files.
+- `data/`: Directory for input CSV files, extract the .zip file to test locally.
 - `leads_data.db`: SQLite database where results are stored.
 - `python_etl.log`: Log file for tracking pipeline execution and errors.
 

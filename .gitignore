@@ -2,3 +2,4 @@
 .venv
 leads_data.db
 *.log
+*.csv
