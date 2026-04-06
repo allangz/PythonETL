@@ -22,5 +22,7 @@ jobs:
         uses: astral-sh/setup-uv@v7
         with:
           version: '0.10.10'
-      - name: Test with pytest
-        run: uv python install && pytest
+      - name: Install the project
+        run: uv sync --group tests
+      - name: Run tests
+        run: uv run pytest
