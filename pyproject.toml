@@ -6,3 +6,8 @@ requires-python = ">=3.12"
 dependencies = [
     "pandas>=3.0.2",
 ]
+
+[dependency-groups]
+tests = [
+    "pytest>=9.0.2",
+]

@@ -1,3 +1,4 @@
 .idea
 .venv
 leads_data.db
+*.log
